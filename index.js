@@ -8,6 +8,7 @@ var takeANumber = (line,person) =>{
 var nowServing = (line) =>{
   if(line[0] != undefined)
   {
+    line.shift()
     return "Currently serving " + line[0]+"."
 }
 else{
@@ -16,11 +17,11 @@ else{
 }
 
 var currentLine = (line) =>{
-  if(){  
-    "The line is currently "
+  if(line.length !=0){
+    "The line is currently "+
 }
 else{
   return "The line is currently empty."
-  
+
 }
 }
