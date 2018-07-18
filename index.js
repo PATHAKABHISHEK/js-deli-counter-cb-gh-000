@@ -8,7 +8,7 @@ var takeANumber = (line,person) =>{
 var nowServing = (line) =>{
   if(line[0] != undefined)
   {
-    return "Currently serving " + line[0]+"." 
+    return "Currently serving " + line[0]+"."
 }
 else{
   return "There is nobody waiting to be served!"
