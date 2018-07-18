@@ -17,9 +17,10 @@ else{
 }
 
 var currentLine = (line) =>{
-  if(line.length !=0){
-    "The line is currently "+
-}
+  if(line.length != 0){
+return "The line is currently: "+
+
+  }
 else{
   return "The line is currently empty."
 
